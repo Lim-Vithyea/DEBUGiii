@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text font-bold text-2xl">
         DEBUG
       </div>
-      <ul className="flex space-x-6 text-xl">
+      <ul className="flex space-x-6 text-xl gap-8">
         <li>
           <a href="#" className="hover:text-blue-400 transition-colors font-semibold">
             Home
