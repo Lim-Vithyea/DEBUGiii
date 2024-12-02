@@ -13,7 +13,8 @@ const Button = ({ name, color , border, shadow}) => {
   }
   return (
     <div
-      className={`w-52 h-12 flex items-center justify-center transform transition duration-500 hover:scale-110 rounded-xl font-bold cursor-pointer text-white ${colorClasses[color]||'bg-blue-500'} ${borderClass[border]} ${shadowClass[shadow]}`}>
+      className={`w-52 h-12 flex items-center justify-center transform transition 
+      duration-500 hover:scale-110 rounded-xl font-bold cursor-pointer text-white ${colorClasses[color]||'bg-blue-500'} ${borderClass[border]} ${shadowClass[shadow]}`}>
       {name}
     </div>
   );
