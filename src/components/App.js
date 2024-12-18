@@ -21,6 +21,9 @@ function App() {
         <h1 className="text-center bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text font-bold pt-[20px] text-4xl">Feature</h1>
         <Featurecard/>
       </div>
+      <div className="w-full h-[100px] p-[50px] text-center">
+      <p className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text font-bold ">Design by Lim Vithyea. 2024@all right reserve</p>
+      </div>
     </div>
   );
 }

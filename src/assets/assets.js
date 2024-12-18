@@ -1,5 +1,23 @@
 import Chatbot from "./chatbot.jpg";
-import Code from "./code.jpg"
+import Code from "./code.jpg";
+import People from "./Samaun.jpg";
+import People2 from "./Vithyea.jpg";
+
+export const peopleData = [
+    {
+        id: 0,
+        person: People2,
+        job: "Full-Stack Developer",
+        name: "Lim Vithyea",
+    },
+    {
+        id: 1,
+        person: People,
+        job: "Fornt-End Developer",
+        name: "Doem SamAun"
+    }
+]
+
 
 export const textData = [
     {
