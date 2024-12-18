@@ -9,7 +9,7 @@ const GoogleAIComponent = () => {
   const [error, setError] = useState("");
 
   const handleGenerateContent = async () => {
-    const genAI = new GoogleGenerativeAI("AIzaSyDY7K4H5-LWJ6SUPWebQL2tViwv5cQybA0");
+    const genAI = new GoogleGenerativeAI("");
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     try {
       setLoading(true);
